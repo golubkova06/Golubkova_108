@@ -23,7 +23,7 @@ int main()
 
     if (x - 1 < 0 && b - x != 0)
     { 
-        f = a * pow(x, 3) + b;
+        f = a * pow(x, 4) + b;
     }
     if (x - 1 > 0 && b + x == 0 && x != 0)
     {
@@ -34,5 +34,5 @@ int main()
         f = (x / c);
     }
 
-    cout << setprecision(2) << "F = " << f << endl;
+    cout << setprecision(2) << "f = " << f << endl;
     }
