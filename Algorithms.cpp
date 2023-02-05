@@ -23,7 +23,7 @@ int main()
 
     if (x - 1 < 0 && b - x != 0)
     { 
-        f = a * pow(x, 2) + b;
+        f = a * pow(x, 3) + b;
     }
     if (x - 1 > 0 && b + x == 0 && x != 0)
     {
